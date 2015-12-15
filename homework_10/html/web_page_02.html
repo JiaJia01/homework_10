@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+	<link href="../css/01.css" type="text/css" rel="stylesheet" />
+	<link href="../css/iconfont.css" type="text/css" rel="stylesheet" />
+	
+</head>
+<body>
+	<div id="container">
+    	<div id="container_02">
+        	<div id="En">Enigmatico</div>
+            <div id="sign_">
+            <div id="sign_in">Sign in</div>
+            <div id="sign_up">Sign Up</div>
+            </div>
+            <div id="follow">
+            	<div id="text">Follow us : </div>
+                <div id="font_01"><i class="icon iconfont">&#xe61c;</i></div>
+                <div id="font_02"><i class="icon iconfont_02">&#xe602;</i></div>
+                <div id="font_02--"><i class="icon iconfont_02--">&#xe648;</i></div>
+                <div id="font_04"><i class="icon iconfont_04">&#xe62b;</i></div>
+                <!-- <div id="text_02">
+                <ul>
+                	<li >
+                		<i class="icon iconfont">&#xe61c;</i>
+                	</li>
+                	<li>
+                		<i class="icon iconfont">&#xe607;</i>
+                	</li>
+                	<li>
+                		<i class="icon iconfont">&#xe607;</i>
+                	</li>
+                	<li>
+                		<i class="icon iconfont">&#xe607;</i>
+                	</li> 
+                </ul> -->    
+            </div>
+            <div id="content">
+            	<div id="Head" class="Head">
+                	<!-- <div id="menu_01">Home page</div>
+                    <div id="menu_02">About us</div>
+                    <div id="menu_02--">Photo gallery</div>
+                    <div id="menu_04">Blog</div>
+                    <div id="menu_05">E-shop</div>
+                    <div id="menu_06">Contact us</div> -->
+                    <ul class="one-nav"> 
+                    	<li id="menu_01">Home page</li>
+                        <li id="menu_02">About us
+                        	<ul class="two-nav">
+                            	<li><a href="#">Consectetur</a></li>  
+                    			<li><a href="#">Vehicula</a></li> 
+                                <li><a href="#">Sit Dapibus Ligula</a></li> 
+                                <li><a href="#">Consectetur</a></li> 
+                                <li><a href="#">Vehicula Sit</a></li> 
+                                <li><a href="#">Dapibus Ligula</a></li> 
+                                <li><a href="#">Consectetur Vehicula</a></li>  
+                            </ul>
+                        </li>
+                        <li id="menu_02--">Photo gallery</li>
+                        <li id="menu_04">Blog</li>
+                        <li id="menu_05">E-shop</li>
+                        <li id="menu_06">Contact us</li>
+                    </ul>
+                    <div id="Middle"></div>
+                </div>
+
+                <div id="Foot">
+               		<div id="text_02">
+                    <p>We are photoshoot interger posuere erat a ante venenatis dapibus posuere velit aliquet. Donec</p>
+                    <p>ullamcorper nulla non metus auctor fringilla. Praesentcommodo cursus magna, vel scelerisque nisl</p>
+                    </div>
+                	<div id="More_information">
+                    <p id="More_information_01">More information  ></p>
+                    </div>
+                </div>
+               
+            </div>
+		</div>
+        <div id="arrow_01" class="arrow_01"><p> < </p> </div>
+        <div id="arrow_02" class="arrow_02"><p> > </p></div>
+	</div>
+</body>
+<script language="javascript">
+        var Back = document.querySelector('#Head');
+        var arrow_01 = document.querySelector('#arrow_01');
+        var arrow_02 = document.querySelector('#arrow_02');
+        //arrow_01.addEventListener("click",function (){ test_01(); },false);
+        arrow_01.addEventListener('click',function(){test_01();},false);
+        arrow_02.addEventListener("click",function (){ test_02(); },false);
+        function test_01() {
+            Back.style.background = "url(../image/02.jpg)";
+        }
+        function test_02() {
+            Back.style.backgroundImage = "url(../image/02--.jpg)";
+        }
+    </script>
+</html>
